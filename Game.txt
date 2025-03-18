@@ -1,0 +1,81 @@
+player:Shrek
+map:r1
+    room:r1,forest,Looking at the area you see a dense forest something about it calls to you there may be something here to look at,false
+        equipment:r1,rock,an old rock,false,break,c1,pi1,using the rock to break through the cottage window you discover the origin of that delicious smell. its a apple pie
+        equipment:bg1,bug,A big bug,false,give,spdr1,str1,Giving the spider the bug she snatches it from you and scarfs it down. "For youre gift il hold of on eating you for now"
+        npc:owl1,owl,An old owl,false,Oh hello i didnt see you there my eyesight isnt getting any better. i must say this forrest does have quit a few rock in it,false,not needed,pi1
+        exit:e1,east,You see a path leading east,r2,false
+        exit:e2,south,You see a path leading south,r5,false
+    room:r2,meadow,looking at the meadow the only thing of interest you see is a cottage,false
+        equipment:pi1,pie,a delicious apple pie,true,give,horse1,key1,Giving the horse the apple pie. it scarfs it down commenting on how delicious it was. it then turns takes a rusty key in it mouth and drops it on the floor expecting you to pick it up
+        container:c1,cottage,when you look you can make out a old but homey cottage. as you look you start to smell something delicious,false
+        exit:e3,west,you see a path leading east,r1,false
+        exit:e4,east,you see a path leading west,r3,false
+        exit:e5,south,you see a path leading south,r6,false
+    room:r3,grasslands,looking at the grasslands you see a stable standing on it lonesome,false
+        equipment:key1,key,a rusty key. looks like it would fit in a rusty key hole,true,unlock,lib1,book1,puting the key into the hole you unlock the library revealing it contained a book of jokes
+        npc:horse1,horse,a brown stalion,false,oh hello you there. i say would you mind giving me something appely to eat,false,oh i must say i am quit stuffed from that pie. thank you for that,horse1
+        item:flsh1,flashlight,a pretty normal flashlight,false
+        feature:st1,stable,a pretty sturdy stable. you think you see something moving inside,false
+        exit:e6,west,you see a path leading west,r2,false
+        exit:e7,east,you see a path leading east,r4,false
+        exit:e8,south,you see a path leading south,r7,false
+    room:r4,meadow,Looking across this meadow you standing on its own a library,false
+        feature:lib1,library,looking at the library you see the only entrance is a locked rusty door,false
+        equipment:book1,book,a book a jokes that make you laugh,true,give,scr1,axe1,Giving the book of jokes to the scarecrow he chuckles as he reads. "Thank you for the book" he says. here take this axe in my back"
+        item:nail1,nail,an old nail,false
+        exit:e9,west,you see a path leading west,r3,false
+        exit:e10,south,you see a path leading south,r8,false
+    room:r5,marsh,you come accross a marsh. looking closer you see a lake in the middle,false
+        feature:lk1,lake,looking you see a murky lake with slimy moss at the bottom. you think you saw something moving at the bottom,false
+        equipment:fish1,fish,A big slimey fish,true,give,bear1,gun1,throwing the bear the slimey fish you hear some strange noises.Then see a gun sliding out of the cave towards you
+        exit:e11,north,you see a path leading north,r1,false
+        exit:e12,east,you see a path leading east,r6,false
+        exit:e13,south,you see a path leading south,r9,false
+    room:r6,river,Looking in the area you see a babling brooke and a giant tree as well as a beaver near the base of the tree.You notice the bark of the tree is striped at the base,false
+        feature:tre1,tree,Looking you see a large oak tree,false
+        item:stc1,stick,A sturdy stick,true
+        npc:beaver1,beaver,A small but old beaver,false,in a voice that sound exactly like Mat Berry "my word ever since my teeth fell out i am unable to build a damn...tell you what if you can nock this tree down il give you a cool stick",false,in that same voice you here "OI WHAT ARE YOU STILL DOING HERE.LEAVE",tre1
+        exit:e14,north,you see a path leading north,r2,false
+        exit:e15,east,you see a path leading east,r7,false
+        exit:e16,west,you see a path leading west,r5,false
+        exit:e17,south,you see a path leading south,r10,false
+    room:r7,swamp,Looking at the swamp you dont really see anything of interest other than what look like a tree stump on top of a house. As well as seeing a green ogre,false
+        feature:tre2,stump,Looking at the tree stump you see nothing of interest,false
+        feature:house1,house,looking at the house you see nothing of interest,false
+        npc:ogre1,ogre,A sad ogre,false,as you go to say hello to the ogre he cuts you off "My swamp has dried. my fish have died.i bide my time. alone .resigned.with only the song of birds to ease my mind",false,as you attempt to talk to the ogre he does not reply or acknowlege you and just continues to listen to the music,ogre1
+        item:rb1,ruby,A pretty red ruby.when you put it close to a light it has a wierd affect,true
+        exit:e18,north,a path leading north,r3,false
+        exit:e19,west,a path leading west,r6,false
+        exit:e20,east,a path leading east,r8,false
+        exit:e21,south,a path leading south,r12,false
+    room:r8,nest,looking at the room. to you it looks like a giant spider nest,false
+        npc:spdr1,spider,looking at the spider you cant help but notice how large she is. she could easily kill you. best to continue carfully,false,as you go to talk to her she says "Well look who walked into my nest. Im feeling kind of peckish.If you dont deliver me some food il make you my dinner",false,trying to talk the the spider again she says "Leave me be",spdr1
+        item:str1,string,A really sturdy string,true
+        exit:e22,north,a path leading north,r4,false
+        exit:e23,west,a path leading west,r7,false
+        exit:e24,south,a path leading south,r12,false
+    room:r9,farm,looking at the area you see that it is a farm. in the middle of the farm you see something of interst,false
+        npc:scr1,scarecrow,Nothing but a basic scarecrow.....you think you saw it move,false,aprouching the scarecrow it says "hey there" it says "wanna hear a joke". "yes" you reply. It then says "well i would tell ya if a knew one" "make one up" you say."i would but my head of hay isnt great at thinking...tell you what give me some jokes and il give you this thing in my back",false,As you aprouch the scarecrow he repeats the joke you told him back to you... you laugh to not upset him,scr1
+        equipment:axe1,axe,a sturdy a axe good for cutting,true,chop,tre1,stc1,as you walk to cut down the tree the beaver sees you and says "Ahhhh you've returned and with a shiny thingy on a stick.... well come along and cut my tree". you oblige cutting with fever until you hear cracking and hear a loud chrash as the tree falls into the river."well my my. i cant believe you've done it my dear chap. Well as promised here you go" as he offers you a stick
+        exit:e25,north,a path leading north,r5,false
+        exit:e26,east,a path leading east,r10,false
+    room:r10,hill,looking in the area you see a small hill.with a man dancing to music on top of it,false
+        npc:man1,man,a basic looking man who is dancing,false,walking up to talk to the man you ask where the music is coming and he replys "its from a radio stuffed in my pocket....YOU CANT HAVE IT",false,........... you dont get a response,man1
+        equipment:rad1,radio,a radio from the man you killed,true,give,ogre1,rb1,Giving the radio to the ogre he handles it carefully.then proceeds to turn it on causing a smile to spread take accross his face. He the says to you "my swamp lies still no fish in sight.but music will fill the air tonight. for this joy a gift il share. a red ruby handle it with gentle care". he then throws the ruby to you but you do not catch it and it falls at youre feet
+        npc:ghost1,ghost,the ghost of the man you killed,true,seing proof of the afterlife you are stunned. Before you can say anything the ghost says to you "ah its you.the man who killed me welp if you want anything else you aint getting it",false,you go to talk to the ghost....... no response,ghost1
+        item:ecto1,ectoplasm,some wierd slimey substance you stole from the ghost,true
+        exit:e27,north,a path leading north,r6,false
+        exit:e28,west,a path leading west,r9,false
+        exit:e29,east,a path leading east,r11,false
+    room:r11,mountain,you see with a mountain range with what looks like a cave in it,false
+        feature:cave1,cave,a dark cave,false
+        npc:bear1,bear,a big bear that you cannot see but you can hear. you dont think you should get any closer,false,"if you give me something to eat il give you something shiney",false,"leave me alone",bear1
+        equipment:gun1,gun,a black slick gun.holding this in your hand makes you feel powerfull,true,shoot,man1,rad1,Shooting the man who refused to give you his radio.you see the radio fall out of his body
+        exit:e30,north,a path leading north,r7,false
+        exit:e31,west,a path leading west,r10,false
+        exit:e32,east,a path leading neast,r12,false
+    room:r12,hell,the actuall christian hell,false
+        equipment:trch1,torch,a torch with blue flames,false,burn,ghost1,ecto1,putting the flame of the torch to the ghost you cant help but delight as he goes up in flames.leaving nothing but a puddle of ectoplasm behind
+        exit:e33,north,a path leading north,r8,false
+        exit:e34,west,a path leading west,r11,false
